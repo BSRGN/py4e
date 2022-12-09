@@ -1,5 +1,5 @@
 try:
-	grade = "F"
+	grade = None
 	score = float(input("Enter Score 0-1.0:"))
 	if score < 0 or score < 1.0:
 		print("Error: input must be between 0.0 - 1.0.")

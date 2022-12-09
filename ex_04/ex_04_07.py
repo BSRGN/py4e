@@ -1,6 +1,6 @@
 def computegrade(score):
     print("In computegrade", score)
-    grade = "F"
+    grade = None
     if score < 0 or score > 1.0:
       print("Bad score")
     elif score >= 0.9:

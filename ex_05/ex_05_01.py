@@ -1,4 +1,10 @@
+count = 0
 total = 0
-for itervar in [3, 41, 12, 9, 74, 15]:
-    total = total + itervar
-print('Total: ', total)
+while True:
+    #string value number
+    sval = input("Enter a number: ")
+    #floating point value number
+    fval = float(sval)
+    print(fval)
+    count = count + 1
+    total = total + fval

@@ -1,3 +1,8 @@
+# Copy and paste terminal address: and python program below:
+
+# cd /Users/michaelbasargin/Documents/Github/py4 
+# python3 python_playground.py
+
 import random
 
 for i in range(10):

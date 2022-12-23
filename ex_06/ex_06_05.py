@@ -1,4 +1,7 @@
-str = 'X-DSPAM-Confidence:0.8475'
-colon_str = str.find(":")
-print(colon_str)
-print(float(str[18+1:]))
+str = 'X-DSPAM-Confidence: 0.8475'
+ipos = str.find(":")
+# print(ipos)
+piece = str[ipos+2:]
+# print(piece)
+value = float(piece)
+print(value)

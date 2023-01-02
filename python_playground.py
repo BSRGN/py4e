@@ -9,6 +9,9 @@
 #    x = random.random()
 #    print(x)
 
-x =  [1,2,3,4,5]
-x = list(range(5))
-print(x)
+#x =  [1,2,3,4,5]
+#x = list(range(5))
+#print(x)
+
+stuff = dict()
+print(stuff.get('candy',-1))

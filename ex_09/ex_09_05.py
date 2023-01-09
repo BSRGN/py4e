@@ -3,7 +3,7 @@
 fname = input('Enter file name: ')
 if len(fname) < 1:
   fname = 'mbox-short.txt'
-count = dict()
+di = dict()
 try:
   fhand = open(fname)
 except:
@@ -18,9 +18,9 @@ for lines in fhand:
   words = lines.split()
   if len(words) < 3:
     continue
-  #print('***1***',words)
-  words = words[1].split('@')
   #print('***2***',words)
+  words = words[1].split('@')
+  #print('***3***',words)
   word = words[1]
-  count[word] = count.get(word,0) + 1
-print(count)
+  di[word] = di.get(word,0) + 1
+print(di)

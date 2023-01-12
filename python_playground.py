@@ -33,7 +33,9 @@
 
 inp = input('enter file:')
 try: fhand = open(inp)
-except: print ('try again'), exit()
+except:
+    print ('try again')
+    exit()
 #import string
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 dct = dict()
